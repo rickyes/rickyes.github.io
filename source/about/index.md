@@ -13,7 +13,7 @@ Node.js/C++ 爱好者
 
 努力、极客、文艺青年
 
-
-邮箱: mail@zhoumq.cn
-知乎: [https://www.zhihu.com/people/zhoumingque](https://www.zhihu.com/people/zhoumingque)
 github: [https://github.com/rickyes](https://github.com/rickyes)
+blog: [https://ricky.im](https://ricky.im)
+知乎: [https://www.zhihu.com/people/zhoumingque](https://www.zhihu.com/people/zhoumingque)
+邮箱: mail@zhoumq.cn

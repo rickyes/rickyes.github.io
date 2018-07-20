@@ -1,2 +1,2 @@
 # ricky blog
-ricky blog, [http://ricky.im](http://ricky.im)
+ricky blog, [https://ricky.im](https://ricky.im)
