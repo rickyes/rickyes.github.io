@@ -147,6 +147,7 @@ module.exports = {
 $ npm i --save polix-request
 ```
 > 在项目根目录下的`config`文件夹下的`plugin.default.js`中添加以下代码
+
 ```js
 // `curl`最终会挂载到`this.app`下
 exports.curl = {
@@ -157,6 +158,7 @@ exports.curl = {
 };
 ```
 > 在`controller`里用`polix-request`
+
 ```js
   @GET
   async getWebInfo(param, ctx){
