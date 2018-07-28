@@ -84,5 +84,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/rickyes/blog
+  repo: https://github.com/rickyes/rickyes.github.io
   branch: master
