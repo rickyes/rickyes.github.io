@@ -117,7 +117,7 @@ struct resMsg {
 
 定义好了语法和参数类型，我们先过一下生成有抽象关系代码的流程：
 
-![ast](http://pc03jve68.bkt.clouddn.com/kirito.jpg)
+![ast](https://raw.githubusercontent.com/rickyes/rickyes.github.io/master/image/kirito.jpg)
 
 取到`.kirito`后缀的文件，读取全部字符，通过词法分析器生成`token`，得到的`token`传入语法分析器生成`AST (抽象语法树)`。
 
@@ -723,7 +723,7 @@ const EXP = {
 
 比如一个整数：`258`，用16进制表示为`0x0102`，我们把它分为两个字节`0x01`和`ox02`，对应的二进制为`0000 0001`和`0000 0010`。在大端序的电脑上存放形式如下：
 
-![big](http://pc03jve68.bkt.clouddn.com/bigend.jpg)
+![big](https://raw.githubusercontent.com/rickyes/rickyes.github.io/master/image/big.jpg)
 
 小端序则相反。为了保证在不同机器之间传输的数据是一样的，开发一个通讯协议时会首先约定好使用一种作为通讯方案。`java虚拟机`采用的是大端序。在机器上我们称为`主机字节序`，网络传输时我们称为`网络字节序`。网络字节序是`TCP/IP`中规定好的一种数据表示格式，它与具体的`CPU`类型、操作系统等无关，从而可以保证数据在不同主机之间传输时能够被正确解释。网络字节序采用大端排序方式。
 
@@ -782,7 +782,7 @@ client.ping({age: 23, name: 'ricky 泽阳'}, function (err, result) {
 
 贴下具体的调用流程架构图：
 
-![rpc](http://pc03jve68.bkt.clouddn.com/mqt_rpc.jpg)
+![rpc](https://raw.githubusercontent.com/rickyes/rickyes.github.io/master/image/mqt_rpc.jpg)
 
 调用流程总结：
 
