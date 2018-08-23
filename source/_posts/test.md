@@ -9,7 +9,7 @@ categories:
 var 定义的变量允许变量提升（Hoisting），还涉及到 变量进行 LHS（Left Hand Side）查找
 ```javascript
 举个栗子：
-console.log(x); // var is up
+console.log(x); // undefined
 var x = 'var is up';
 ```
 但是得注意一下，var声明的变量可以提升，但是如果是一个定义一个函数，函数表达式是不可以提升的，如下:
