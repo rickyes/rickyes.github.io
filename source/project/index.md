@@ -15,7 +15,7 @@ layout: hide
 - [https://github.com/polixjs/polix](https://github.com/polixjs/polix)
 
 ### polix-rpc | Node.js RPC 框架
-- [https://github.com/polixjs/polix](https://github.com/polixjs/polix)
+- [https://github.com/polixjs/polix-rpc](https://github.com/polixjs/polix-rpc)
 
 ### kiritobuf | kirito 接口定义语言
 - [https://github.com/rickyes/kiritobuf](https://github.com/rickyes/kiritobuf)
