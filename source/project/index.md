@@ -7,17 +7,20 @@ layout: hide
 ---
 
 > **作品**
-### LabelX | Koa2 基础框架
+### labelX | Koa2 基础框架
 - [https://github.com/rickyes/LabelX](https://github.com/rickyes/LabelX)
 
-### V8-json | Node.js C++ 扩展 v8 json 解析器
+### v8-json | Node.js C++ 扩展 v8 json 解析器
 - [https://github.com/rickyes/v8-json](https://github.com/rickyes/v8-json)
 
-### Polix | Node.js 装饰器、插件式 Web 框架
+### polix | Node.js 装饰器、插件式 Web 框架
 - [https://github.com/polixjs/polix](https://github.com/polixjs/polix)
 
-### Kiritobuf | kirito 接口定义语言
+### kiritobuf | kirito 接口定义语言
 - [https://github.com/rickyes/kiritobuf](https://github.com/rickyes/kiritobuf)
+
+### lucky.js | 高级数据结构基础库
+- [https://github.com/rickyes/lucky.js](https://github.com/rickyes/lucky.js)
 
 ---
 
