@@ -47,4 +47,4 @@ $ proxy y
 $ proxy n
 ```
 效果图：
-![image](https://user-images.githubusercontent.com/20432815/47641074-0f22f680-dba0-11e8-8367-1c2e95c9dcfd.png)
+![image](https://user-images.githubusercontent.com/20432815/47642545-e13fb100-dba3-11e8-981f-7fb832319d9e.png)
