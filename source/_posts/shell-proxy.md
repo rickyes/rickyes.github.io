@@ -48,3 +48,5 @@ $ proxy n
 ```
 效果图：
 ![image](https://user-images.githubusercontent.com/20432815/47642545-e13fb100-dba3-11e8-981f-7fb832319d9e.png)
+
+[在github上查看](https://github.com/rickyes/rickyes.github.io/issues/3)
