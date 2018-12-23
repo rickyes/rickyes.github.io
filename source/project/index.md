@@ -26,3 +26,5 @@ layout: hide
 ### Vue 驱动的静态网站生成器 [vuepress](https://github.com/vuejs/vuepress)
 
 ### cron 解析库 for Node.js [cron-parser](https://github.com/harrisiirak/cron-parser)
+
+### Node.js HTTP 请求库 [request](https://github.com/request/request)
