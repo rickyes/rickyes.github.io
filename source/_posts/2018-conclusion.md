@@ -27,9 +27,9 @@ categories:
 - [Kiritobuf IDL](https://github.com/rickyes/kiritobuf)
 - [高级数据结构基础库](https://github.com/rickyes/lucky.js)
 - [一个小的 Node.js 运行时](https://github.com/rickyes/node-mini)
-> ~~几个是当时有想法但是还没写完的~~
+- ~~ 几个是当时有想法但是还没写完的 ~~
 
-![github](../../image/github.png)
+![github](https://github.com/rickyes/rickyes.github.io/blob/master/image/github.png?raw=true)
 
 ### 谈谈 2019
 - 最大的期望是能够在这一年成为 `Node.js Contributors`
