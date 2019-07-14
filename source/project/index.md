@@ -8,6 +8,8 @@ layout: hide
 
 > **作品**
 
+### Jasypt.js 配置项加密 [jasypt](https://github.com/rickyes/jasypt)
+
 ### Node.js RPC 框架 [polix-rpc](https://github.com/polixjs/polix-rpc)
 
 ### kirito 接口定义语言 [kiritobuf](https://github.com/rickyes/kiritobuf)
