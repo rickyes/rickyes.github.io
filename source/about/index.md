@@ -9,7 +9,7 @@ layout: hide
 > ***Ricky 泽阳***
 > 95年生人，喜欢动漫、喜欢听民谣。
 
-Node.js/C++ 爱好者
+C++ 新手 / Nodejs Contributor
 
 努力、极客、文艺青年
 
