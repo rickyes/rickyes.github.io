@@ -57,7 +57,7 @@ active_defrag_running:0
 lazyfree_pending_objects:0
 ```
 
-## 删除
+## 删除大数据集合
 
 #### del
 
