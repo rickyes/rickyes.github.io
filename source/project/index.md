@@ -8,6 +8,12 @@ layout: hide
 
 > **作品**
 
+### TOX RPC 协议库，支持多种序列化框架 [tox.js](https://github.com/toxhub/tox.js)
+
+### Sequelize-base sequelize 通用操作库 [sequelize-base](https://github.com/rickyes/sequelize-base)
+
+### Ficache 业务数据缓存库 [ficache](https://github.com/rickyes/ficache)
+
 ### Jasypt.js 配置项加密 [jasypt](https://github.com/rickyes/jasypt)
 
 ### Node.js RPC 框架 [polix-rpc](https://github.com/polixjs/polix-rpc)
@@ -30,3 +36,5 @@ layout: hide
 ### cron 解析库 for Node.js [cron-parser](https://github.com/harrisiirak/cron-parser)
 
 ### Node.js HTTP 请求库 [request](https://github.com/request/request)
+
+### Node.js Core [Node.js](https://github.com/nodejs/node)
