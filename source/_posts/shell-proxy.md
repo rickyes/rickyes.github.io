@@ -31,6 +31,9 @@ export https_proxy=
 echo "已关闭代理"
 fi
 ```
+
+<!-- more -->
+
 没权限的话，先执行下`chmod +x .socks5-proxy.sh`, 放在$HOME目录下
 直接在当前目录执行这段脚本是不生效的，因为执行这段脚本的时候是单独的子shell进程，设置的变量退出后是不会同步到父进程的，需要在当前的进程source .socks5-proxy.sh，将脚本的变量设置到当前进程。
 

@@ -20,6 +20,8 @@ $ pol init example && cd example
 $ make build && make dev
 ```
 
+<!-- more -->
+
 ## Service
 > 在`service`文件夹下添加`user.js`
 

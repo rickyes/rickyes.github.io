@@ -20,6 +20,8 @@ categories:
 
 4月份的时候朋友在苏州出差，就和几个朋友决定了去那边走两天。
 
+<!-- more -->
+
 ##### Node.js Contributors
 
 9月份的时候给 `Node.js` 提了个 `PR`，没有重大改动的至少打开48小时没有反对后即可提醒`Collaborators`合并下代码 [贡献详情](https://github.com/nodejs/node/blob/master/COLLABORATOR_GUIDE.md#waiting-for-approvals) 。

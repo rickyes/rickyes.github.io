@@ -9,6 +9,8 @@ categories:
 ### 背景
 一开始项目的业务需要比较简单，采取了 `controller -> model` 的形式进行开发。随着业务量的增加，以前的结构已经不适应于快速的迭代节奏，代码耦合度高，很难复用，维护也很困难。参考着以前写 android 的经验和社区的优秀案例，采取了 `controller -> service -> model` 的模式重构了项目结构。
 
+<!-- more -->
+
 ### 项目结构
 
 ![app](https://raw.githubusercontent.com/rickyes/rickyes.github.io/master/image/app.png)

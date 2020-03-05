@@ -25,6 +25,9 @@ func = function(){
     return 'this is function';
 }
 ```
+
+<!-- more -->
+
 上面那段代码会被爆出TypeError,变量func被提升了，但是后面的函数表达式没被提升，提升的func的初始化是var func = undefined,上面的操作相当于undefined(),所以就爆TypeError了;
 
 ## 函数声明和函数表达式声明

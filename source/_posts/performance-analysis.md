@@ -39,6 +39,8 @@ server.use(etagger().bind(server))
 server.listen(3000);
 ```
 
+<!-- more -->
+
 ```js
 // util.js
 'use strict'
