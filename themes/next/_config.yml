@@ -477,14 +477,12 @@ leancloud_visitors:
 # Gitalk评论
 gitalk:
   enable: true
-  owner: mail@zhoumq.cn
-  repo: rickyes.github.io
-  admin: rickyes
-  clientID: 95409dd17f1dea41aff4
-  clientSecret: 5290119e32e3b74d0b909509c0c3b00650553a1c
-  gitalk_css: cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css
-  gitalk_js: cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js
-  md5: cdn.bootcss.com/blueimp-md5/1.1.0/js/md5.min.js
+  githubID: rickyes  # 例：asdfv1929   
+  repo: rickyes.github.io   # 例：asdfv1929.github.io
+  ClientID: 95409dd17f1dea41aff4
+  ClientSecret: 5290119e32e3b74d0b909509c0c3b00650553a1c
+  adminUser: mail@zhoumq.cn #指定可初始化评论账户
+  distractionFreeMode: true
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
