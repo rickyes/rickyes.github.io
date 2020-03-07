@@ -476,11 +476,11 @@ leancloud_visitors:
 
 # Gitalk评论
 gitalk:
-  enable: true
+  enable: false
   githubID: rickyes  # 例：asdfv1929   
   repo: rickyes.github.io   # 例：asdfv1929.github.io
-  ClientID: 95409dd17f1dea41aff4
-  ClientSecret: 5290119e32e3b74d0b909509c0c3b00650553a1c
+  ClientID: 
+  ClientSecret: 
   adminUser: mail@zhoumq.cn #指定可初始化评论账户
   distractionFreeMode: true
 
