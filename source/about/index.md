@@ -7,7 +7,7 @@ layout: hide
 ---
 
 > ***Ricky 泽阳***
-> 95年生人，喜欢动漫、喜欢听民谣。
+> 1995.11.25 射手座，喜欢动漫、喜欢听民谣。
 
 github: [https://github.com/rickyes](https://github.com/rickyes)
 blog: [https://ricky.im](https://ricky.im)
