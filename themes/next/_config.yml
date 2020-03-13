@@ -142,7 +142,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: https://avatars3.githubusercontent.com/u/20432815?s=460&v=4
+avatar: http://cdn.zhoumq.cn/avatar.jpeg
 
 # Table Of Contents in the Sidebar
 toc:
