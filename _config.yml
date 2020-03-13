@@ -86,8 +86,3 @@ deploy:
   type: git
   repo: https://github.com/rickyes/rickyes.github.io
   branch: master
-
-lazyload:
-  enable: true
-  # className: #可选 e.g. .J-lazyload-img
-  # loadingImg: #可选 eg. ./images/loading.png
