@@ -176,7 +176,7 @@ void Environment::ToggleTimerRef(bool ref) {
 
 最终的逻辑走到了 `libuv` 的两个函数 `uv_ref` 和 `uv_unref` 上。
 
-### `linuv` 实现层
+### `libuv` 实现层
 
 > 基于Libuv v1.35.0 版本
 
