@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 追光 の 繁星
+title: 繁星 の 夜
 subtitle:
-description: Coding & Fun
+description:  代码 / 音乐 / 文学 / 硬件
 author: Ricky 泽阳
 language: zh-Hans
 timezone: 
@@ -78,7 +78,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: sagiri
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
