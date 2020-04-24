@@ -1,6 +1,6 @@
 ## 联系方式
 - 手机：13067979205
-- email：mail@zhoumq.cn
+- email：ives199511@gmail.com
 
 ## 个人信息
 - 周明雀/男/1995
@@ -11,7 +11,7 @@
 - 期望岗位：Node.js 高级研发工程师/杭州
 
 ## 社区贡献
-- Node 核心 贡献几次 commit ,  目前是 Contributor ，正在冲刺 Collaborator
+- Node 核心 贡献多次 commit ,  目前是 Contributor ，正在冲刺 Collaborator
 - CNode 社区精华文章 **1** 篇 ([#5b63b25e792f59ae501bf71c](https://cnodejs.org/topic/5b63b25e792f59ae501bf71c))
 - NPM Package **19** 个 , **1** 个月下载量 **780+** （[#jasypt](https://www.npmjs.com/package/jasypt)） 
 - 博客文章 **17** 篇，**4** 篇阅读量 **100+** （[ricky.im](https://ricky.im)）
