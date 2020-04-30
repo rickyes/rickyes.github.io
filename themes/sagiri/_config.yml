@@ -761,10 +761,10 @@ css: css
 js: js
 images: images
 
-header_bg: /images/header-sagiri2.jpeg
+header_bg: https://cdn.zhoumq.cn/header-sagiri2.jpeg
 
 card:
-  avatar: /images/card.jpg
+  avatar: https://cdn.zhoumq.cn/card.jpg
   name: <span style="opacity:.2;">!</span>Ives 泽阳
   description: 隱約雷鳴 陰霾天空 但盼風雨來 能留妳在此
 
