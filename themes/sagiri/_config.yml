@@ -20,8 +20,8 @@ override: true
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
   visibilitychange: true
-  narmal: /images/favicon.ico
-  hidden: /images/failure.ico
+  narmal: https://cdn.zhoumq.cn/favicon.ico
+  hidden: https://cdn.zhoumq.cn/failure.ico
   show_text: (/≧▽≦/)咦！又好了！
   hide_text: (●—●)喔哟，崩溃啦！
   apple_touch_icon: /images/apple-touch-icon-next.png
