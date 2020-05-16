@@ -761,7 +761,7 @@ css: css
 js: js
 images: images
 
-header_bg: https://cdn.zhoumq.cn/header-sagiri2.jpeg
+header_bg: https://cdn.zhoumq.cn/header-bg-min.jpeg
 
 card:
   avatar: https://cdn.zhoumq.cn/card.jpg
