@@ -116,7 +116,7 @@ links:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: https://cdn.zhoumq.cn/avatar.jpeg
+avatar: https://cdn.zhoumq.cn/IMG_2235.JPG
 
 # Table Of Contents in the Sidebar
 toc:
@@ -325,7 +325,7 @@ han: false
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname: diygod-me
   count: false
 
