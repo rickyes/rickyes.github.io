@@ -8,10 +8,9 @@ categories:
 
 ### 描述
 
-引用 `nodejs.cn` 的描述
+引用 [`nodejs.org`](https://nodejs.org/dist/latest-v14.x/docs/api/timers.html#timers_timeout_unref) 的描述
 
-> 调用时，活动的 `Timeout` 对象不需要 `Node.js` 事件循环保持活动状态。 如果没有其他活动保持事件循环运行，则进程可以在调用 `Timeout` 对象的回调之前退出。 多次调用 `timeout.unref()` 将无效。
-调用 `timeout.unref()` 会创建一个内部定时器，它将唤醒 `Node.js` 事件循环。 创建太多这些定时器可能会对 `Node.js` 应用程序的性能产生负面影响。
+> When called, the active Timeout object will not require the Node.js event loop to remain active. If there is no other activity keeping the event loop running, the process may exit before the Timeout object's callback is invoked. Calling timeout.unref() multiple times will have no effect.
 
 简单的可以理解为：`timer.unref` 标记句柄，当进程中再无存活的事件，此时的 `timer` 句柄不会阻止进程退出。
 
