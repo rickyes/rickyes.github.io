@@ -9,7 +9,7 @@ categories:
 ## 前言
 > 项目地址：[https://github.com/alibaba/pipcook](https://github.com/alibaba/pipcook)
 
-如果看到此文章之前，不知道 `Boa` 是啥，可以先看看 `Yorkie` 的分享： [Boa: 在 Node.js 中使用 Python](https://cnodejs.org/topic/5e917ec158ab6717beb7f1e0) 
+如果看到此文章之前，不知道 `Boa` 是啥，可以先看看 `Yorkie` 的分享 [Boa: 在 Node.js 中使用 Python](https://cnodejs.org/topic/5e917ec158ab6717beb7f1e0) 
 
 ## 介绍
 
