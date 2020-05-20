@@ -11,6 +11,8 @@ categories:
 
 如果看到此文章之前，不知道 `Boa` 是啥，可以先看看 `Yorkie` 的分享 [Boa: 在 Node.js 中使用 Python](https://cnodejs.org/topic/5e917ec158ab6717beb7f1e0) 
 
+<!-- more -->
+
 ## 介绍
 
 在未实现此功能之前，`Boa` 加载 `Python` 库是下面这样子的：
