@@ -325,8 +325,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname: diygod-me
+  enable: true
+  shortname: ricky-8
   count: false
 
 # Hypercomments
