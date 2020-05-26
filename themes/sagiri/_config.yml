@@ -789,7 +789,7 @@ footer:
     version: true
   # -------------------------------------------------------------
   # Any custom text can be defined here.
-  custom_text: custom text
+  custom_text: 
   sitemap: /sitemap.xml
   beian: xxxx
 
