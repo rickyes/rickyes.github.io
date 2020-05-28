@@ -14,8 +14,7 @@
 - Node.js Core 贡献 20 余次 commit ,  目前是 Contributor ，正在冲刺 Collaborator
 - 阿里巴巴前端机器学习应用框架 [Pipcook](https://github.com/alibaba/pipcook) 贡献者，跨语言工作组成员
 - CNode 社区精华文章 **2** 篇 ([cnodejs.org](https://cnodejs.org/user/zhoumingque))
-- NPM Package **19** 个 , **1** 个月下载量 **780+** （[#jasypt](https://www.npmjs.com/package/jasypt)） 
-- 博客文章 **18** 篇，**4** 篇阅读量 **100+** （[ricky.im](https://ricky.im)）
+- NPM Package **19** 个 , **1** 个月下载量 **780+** （[#jasypt](https://www.npmjs.com/package/jasypt)）
 
 ## 工作经历
 ### 杭州数澜科技 （2018.5 ~ 2020.5）
