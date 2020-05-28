@@ -8,16 +8,17 @@
 - 专科/广州番禺理工学院/计算机专业
 - 博客：[ricky.im](https://ricky.im)
 - Github：[rickyes](https://github.com/rickyes)
-- 期望岗位：Node.js 高级研发工程师/杭州
+- 期望岗位：Node.js 高级研发工程师/广州
 
 ## 社区贡献
-- Node 核心 贡献多次 commit ,  目前是 Contributor ，正在冲刺 Collaborator
-- CNode 社区精华文章 **1** 篇 ([#5b63b25e792f59ae501bf71c](https://cnodejs.org/topic/5b63b25e792f59ae501bf71c))
+- Node.js Core 贡献 20 余次 commit ,  目前是 Contributor ，正在冲刺 Collaborator
+- 阿里巴巴前端机器学习应用框架 [Pipcook](https://github.com/alibaba/pipcook) 贡献者，跨语言工作组成员
+- CNode 社区精华文章 **2** 篇 ([cnodejs.org](https://cnodejs.org/user/zhoumingque))
 - NPM Package **19** 个 , **1** 个月下载量 **780+** （[#jasypt](https://www.npmjs.com/package/jasypt)） 
-- 博客文章 **17** 篇，**4** 篇阅读量 **100+** （[ricky.im](https://ricky.im)）
+- 博客文章 **18** 篇，**4** 篇阅读量 **100+** （[ricky.im](https://ricky.im)）
 
 ## 工作经历
-### 杭州数澜科技 （2018.5 ~ 至今）
+### 杭州数澜科技 （2018.5 ~ 2020.5）
 - 岗位：Node.js 研发工程师
 - 职责：负责内部基础设施 **API Gateway** 的维护与设计开发，设计和实施大数据应用的开发
 
@@ -45,7 +46,7 @@
 
 
 ## 开源项目
-- [polix](https://github.com/polixjs/polix) ：Node.js 装饰器、插件式 Web 框架 (27 star , 2 fork)
+- [polix](https://github.com/polixjs/polix) ：Node.js 装饰器、插件式 Web 框架 ( 29 star )
 - [jasypt](https://github.com/rickyes/jasypt)：和 Java/jasypt 保持一致的配置项加解密库
 - [kiritobuf](https://github.com/rickyes/kiritobuf)：类似 Protobuf 语法的 IDL 语言
 - [polix-rpc](https://github.com/polixjs/polix-rpc)：基于 kiritobuf 序列化的 RPC 库
@@ -56,3 +57,4 @@
 - [从 unref 看事件循环](https://www.ricky.im/2020/03/29/time-unref/)
 - [浅谈一致性哈希](https://www.ricky.im/2020/03/11/consistent-hashing/)
 - [从零开始实现一个IDL+RPC框架](https://cnodejs.org/topic/5b63b25e792f59ae501bf71c)
+- [Boa 如何使用 ES Module 加载 Python 包](https://cnodejs.org/topic/5ec4b241a87fc8583363d488)
