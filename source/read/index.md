@@ -14,7 +14,7 @@ layout: hide
 
 ### 程序员的自我修养 (ing)
 
-### 高性能 MySQL
+### 高性能 MySQL (ing)
 
 ### 皮囊
 
