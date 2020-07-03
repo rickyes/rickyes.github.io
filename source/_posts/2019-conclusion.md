@@ -71,7 +71,7 @@ categories:
 - 成为 Node.js Collaborators
 - 成为 Libuv Contributors
 - 看 10 本书
-- 去一趟南京
+- [x] 去一趟南京
 - 健身，维持体重到120左右
 - 听一场演唱会
 - 英语水平能够和社区的人平常交流 （这个是真的难）
