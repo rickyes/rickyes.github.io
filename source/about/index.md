@@ -6,7 +6,7 @@ comments: false
 layout: hide
 ---
 
-> ***Ives 泽阳***
+> ***Ricky 泽阳***
 > 1995 射手座，喜欢动漫、喜欢听民谣。
 
 github: [https://github.com/rickyes](https://github.com/rickyes)
