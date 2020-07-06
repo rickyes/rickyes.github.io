@@ -17,6 +17,11 @@
 - NPM Package **19** 个 , **1** 个月下载量 **780+** （[#jasypt](https://www.npmjs.com/package/jasypt)）
 
 ## 工作经历
+
+### YY 欢聚时代 - SHOPLINE （2020.6 ~ 至今）
+- 岗位：研发工程师
+- 职责：SHOPLINE-Live 直播导购开发与维护
+
 ### 杭州数澜科技 （2018.5 ~ 2020.5）
 - 岗位：Node.js 研发工程师
 - 职责：负责内部基础设施 **API Gateway** 的维护与设计开发，设计和实施大数据应用的开发
