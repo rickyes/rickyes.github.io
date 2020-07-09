@@ -31,7 +31,6 @@
     - 开发二级缓存模块，采用 **Mysql + Redis** 绑定的方案，将每次生成的 **SQL + param** 哈希化生成 **Cache Key** 进行缓存业务数据，解决了小程序端接口并发请求过慢的问题，**QPS** 从 200 提升到了 **2700**
     - 项目中用到分布式定时任务的功能，调研了社区多个技术方案后（包括多节点、重试、持久化），最后采取 **bull** 作为定时任务的工具库，由于业务需求需要每个月最后一天的功能项，但 **bull** 依赖的 **cron parser** 库不支持，遂向 **bull** 上游 **cron-parser** 提了 PR（[#133](https://github.com/harrisiirak/cron-parser/pull/133)），最后由于作者对于架构的考虑没合并只好维护在内部仓库使用。
     - 沉淀多个通用 NPM 包，包括数据库通用函数库 （[sequelize-base](https://www.npmjs.com/package/sequelize-base)）、数据库二级缓存（[ficache](https://www.npmjs.com/package/ficache)）和 配置项加密（[jasypt](https://www.npmjs.com/package/jasypt)）
-    - 使用 K8s 服务治理 , 结合 Gitlab 内部代码仓库 CI/CD，内部采用 CNPM 作为私有化镜像库
 2. API 网关（维护与开发）
     - 使用 Redis 作为 API 元信息存储，作为管理端与代理端的 API 元信息中的中间存储，加快了代理端转发请求时查询 API 元信息的速度
     - Redis Lua Script 方式，使用令牌桶算法对指定时间窗口的接口高效限流
