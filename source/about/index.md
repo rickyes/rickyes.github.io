@@ -11,4 +11,4 @@ layout: hide
 
 github: [https://github.com/rickyes](https://github.com/rickyes)
 blog: [https://ricky.im](https://ricky.im)
-邮箱: 'ives199511#gmail.com'.sub('#','@')
+邮箱: '0x19951125#gmail.com'.sub('#','@')
