@@ -11,7 +11,7 @@
 - 期望岗位：Node.js 高级研发工程师/广州
 
 ## 社区贡献
-- Node.js Core Collaborator, HTTP、HTTP2 工作组成员
+- [Node.js](https://github.com/nodejs/node) Collaborator， HTTP、HTTP2 工作组成员
 - 阿里巴巴前端机器学习应用框架 [Pipcook](https://github.com/alibaba/pipcook) 贡献者，跨语言工作组成员
 - CNode 社区精华文章 **2** 篇 ([cnodejs.org](https://cnodejs.org/user/zhoumingque))
 - NPM Package **19** 个 , **1** 个月下载量 **780+** （[#jasypt](https://www.npmjs.com/package/jasypt)）
