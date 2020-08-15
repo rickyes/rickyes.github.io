@@ -1,6 +1,6 @@
 ## 联系方式
 - 手机：13067979205
-- email：ives199511@gmail.com
+- email：0x19951125@gmail.com
 
 ## 个人信息
 - 周明雀/男/1995
@@ -11,7 +11,7 @@
 - 期望岗位：Node.js 高级研发工程师/广州
 
 ## 社区贡献
-- Node.js Core 贡献 20 余次 commit ,  目前是 Contributor ，正在冲刺 Collaborator
+- Node.js Core Collaborator, HTTP、HTTP2 工作组成员
 - 阿里巴巴前端机器学习应用框架 [Pipcook](https://github.com/alibaba/pipcook) 贡献者，跨语言工作组成员
 - CNode 社区精华文章 **2** 篇 ([cnodejs.org](https://cnodejs.org/user/zhoumingque))
 - NPM Package **19** 个 , **1** 个月下载量 **780+** （[#jasypt](https://www.npmjs.com/package/jasypt)）
