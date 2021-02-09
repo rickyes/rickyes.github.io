@@ -1,26 +1,34 @@
 ## 联系方式
-- 手机：13067979205
+- 手机：15818139876
 - email：0x19951125@gmail.com
 
 ## 个人信息
 - 周明雀/男/1995
 - 工作年限：3 年
-- 专科/广州番禺理工学院/计算机专业
+- 专科/广州番禺职业技术学院/计算机专业
 - 博客：[ricky.im](https://ricky.im)
 - Github：[rickyes](https://github.com/rickyes)
+- NPM: [zhoumq](https://www.npmjs.com/~zhoumq)
 - 期望岗位：Node.js 高级研发工程师/广州
 
 ## 社区贡献
-- [Node.js](https://github.com/nodejs/node) Collaborator， HTTP、HTTP2 工作组成员
-- 阿里巴巴前端机器学习应用框架 [Pipcook](https://github.com/alibaba/pipcook) 贡献者，跨语言工作组成员
+- Node.js Collaborator， HTTP 工作组成员
+- 阿里巴巴前端机器学习应用框架 [Pipcook/Boa](https://github.com/alibaba/pipcook) 贡献者，Boa 跨语言工作组成员
 - CNode 社区精华文章 **2** 篇 ([cnodejs.org](https://cnodejs.org/user/zhoumingque))
-- NPM Package **19** 个 , **1** 个月下载量 **780+** （[#jasypt](https://www.npmjs.com/package/jasypt)）
+- NPM Package **19** 个 , **1** 个月下载量 **1.7 k+** （[#jasypt](https://www.npmjs.com/package/jasypt)）
 
 ## 工作经历
 
-### YY 欢聚时代 - SHOPLINE （2020.6 ~ 至今）
+### SHOPLINE （2020.6 ~ 至今）
 - 岗位：研发工程师
-- 职责：SHOPLINE-Live 直播导购开发与维护
+- 职责：SHOPLINE-Live 直播导购 /  SHOPLINE 2.0 渲染服务
+- 技术栈
+    1. Web Framework: express/midway
+    2. DB: MongoDB
+    3. APM: NewRelic
+    
+    【2020.6 ~ 2021.1 】 负责 SHOPLINE 1.0 Live 后端服务 、 Node.js 应用性能调优和 MongoDB 查询性能调优。
+    【2021.1 - 至今】负责 SHOPLINE 2.0 全站 C 端 SSR 渲染服务系统稳定性保障。
 
 ### 杭州数澜科技 （2018.5 ~ 2020.5）
 - 岗位：Node.js 研发工程师
@@ -28,15 +36,11 @@
 
 项目：
 1. 内容资产平台 （负责管理后台、小程序的开发）
-    - 开发二级缓存模块，采用 **Mysql + Redis** 绑定的方案，将每次生成的 **SQL + param** 哈希化生成 **Cache Key** 进行缓存业务数据，解决了小程序端接口并发请求过慢的问题，**QPS** 从 200 提升到了 **2700**
-    - 项目中用到分布式定时任务的功能，调研了社区多个技术方案后（包括多节点、重试、持久化），最后采取 **bull** 作为定时任务的工具库，由于业务需求需要每个月最后一天的功能项，但 **bull** 依赖的 **cron parser** 库不支持，遂向 **bull** 上游 **cron-parser** 提了 PR（[#133](https://github.com/harrisiirak/cron-parser/pull/133)），最后由于作者对于架构的考虑没合并只好维护在内部仓库使用。
+    - 开发二级缓存模块，采用 **Mysql + Redis** 绑定的方案，将每次生成的 **SQL + param** 哈希化生成 **Cache Key** 进行缓存业务数据提升 QPS 指标
     - 沉淀多个通用 NPM 包，包括数据库通用函数库 （[sequelize-base](https://www.npmjs.com/package/sequelize-base)）、数据库二级缓存（[ficache](https://www.npmjs.com/package/ficache)）和 配置项加密（[jasypt](https://www.npmjs.com/package/jasypt)）
 2. API 网关（维护与开发）
-    - 使用 Redis 作为 API 元信息存储，作为管理端与代理端的 API 元信息中的中间存储，加快了代理端转发请求时查询 API 元信息的速度
     - Redis Lua Script 方式，使用令牌桶算法对指定时间窗口的接口高效限流
-    - 使用加权轮询法负载多个后端节点，保证高低配机器之间流量的比例权重
     - 开发协议转换，接口级别请求分发将 HTTP 转换为 Dubbo 协议报文，提高公司内部通用组件的复用性。
-    - 开发、压测阶段使用火焰图排查 CPU 热点函数
 
 ### 广州翔梦信息 （2017.9 ~ 2018.5）
 - 岗位：Node.js 游戏服务端工程师
@@ -48,7 +52,7 @@
 
 
 ## 开源项目
-- [polix](https://github.com/polixjs/polix) ：Node.js 装饰器、插件式 Web 框架 ( 29 star )
+- [polix](https://github.com/polixjs/polix) ：Node.js 装饰器、插件式 Web 框架
 - [jasypt](https://github.com/rickyes/jasypt)：和 Java/jasypt 保持一致的配置项加解密库
 - [kiritobuf](https://github.com/rickyes/kiritobuf)：类似 Protobuf 语法的 IDL 语言
 - [polix-rpc](https://github.com/polixjs/polix-rpc)：基于 kiritobuf 序列化的 RPC 库
