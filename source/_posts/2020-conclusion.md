@@ -20,6 +20,8 @@ categories:
 - 听一场演唱会
 - 英语水平能够和社区的人日常交流
 
+<!-- more -->
+
 1. 每周一篇短文，三周一篇长文
 只维持到了 4 月份，还是没能坚持下来。。。。没能找一个适合的方向长期作文，而且写的短文没有什么质量，所以最后被自己说服了
 
@@ -61,9 +63,9 @@ Node.js 社区对于礼仪方面做有很多成文的规定，很欢迎新手（
 6. 去一趟南京
 准备从杭州回广州后，刚好前同事搬去了南京、高中同学也在南京搬家，所以就过去帮忙顺便去了趟这个古城，由于时间比较短也没有去很多地方。感谢叶同学让我人生第一次吃煎牛排：
 
-[nanjin1](https://cdn.zhoumq.cn/nanjin1.jpeg)
-[nanjin2](https://cdn.zhoumq.cn/nanjin2.jpeg)
-[nanjin3](https://cdn.zhoumq.cn/nanjin3.jpeg)
+![nanjin1](https://cdn.zhoumq.cn/nanjin1.jpeg)
+![nanjin2](https://cdn.zhoumq.cn/nanjin2.jpeg)
+![nanjin3](https://cdn.zhoumq.cn/nanjin3.jpeg)
 
 7. 健身，维持体重到120左右
 回来广州之后，平时有空就去跑个 3、4 公里，饮食也注重清淡，体重减了许多，基本上维持在 122 左右
