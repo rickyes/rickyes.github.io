@@ -33,7 +33,7 @@ categories:
 
 ![github commit](https://cdn.zhoumq.cn/commit.png)
 
-Node.js 社区对于礼仪方面做有很多成文的规定，很欢迎新手（first commit）来贡献代码，平时的 Code Review 过程中也很有礼貌，对于 first commit 的贡献者会在 PR 下面感谢其所做出的工作：
+Node.js 社区对于礼仪方面做有很多成文的规定，很欢迎新手（first commit）来贡献代码，平时的 Code Review 过程中也很有礼貌，对于 first commit 的贡献者一般会在 PR 下面感谢其所做出的工作：
 
 ![welcome pr](https://cdn.zhoumq.cn/welcomepr.png)
 
