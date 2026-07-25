@@ -31,15 +31,15 @@ categories:
 3. 成为 Node.js Collaborators
 上半年有一次下班走在路上，觉得自己不应该就这样下去，捡起了一直以来未能实现的目标，重新开始啃 node 源码。对未知事物最大的安全感就是去深入了解它一探究竟，还有就是好奇心，可能这也是我一直以来对待未知领域的动力源泉之二了。那一段时光真的好兴奋，每天下班回到寝室，拿起电脑就是啃源码，发现一个可以改进的地方或者 bug 就给官方提 PR，然后查看感兴趣的 issues 列表着手修复，睡觉前会看看 PR 的 Review 状态，每天早上醒来的第一件事就是看看 PR 是不是已经有 Approved 了。有时候也会 Review 下其他人的 PR 表达自己的意见，那段时间 Github Commit 基本上全绿：
 
-![github commit](https://cdn.zhoumq.cn/commit.png)
+![github commit](/images/commit.png)
 
 Node.js 社区对于礼仪方面做有很多成文的规定，很欢迎新手（first commit）来贡献代码，平时的 Code Review 过程中也很有礼貌，对于 first commit 的贡献者一般会在 PR 下面感谢其所做出的工作：
 
-![welcome pr](https://cdn.zhoumq.cn/welcomepr.png)
+![welcome pr](/images/welcomepr.png)
 
 有了足够的贡献后，被 TSC 成员提名为 Collaborators：
 
-![nomination](https://cdn.zhoumq.cn/nominat.png)
+![nomination](/images/nominat.png)
 
 4. 成为 Libuv Contributors
 没能对 libuv 进行更深入的了解
@@ -63,9 +63,9 @@ Node.js 社区对于礼仪方面做有很多成文的规定，很欢迎新手（
 6. 去一趟南京
 准备从杭州回广州后，刚好前同事搬去了南京、高中同学也在南京搬家，所以就过去帮忙顺便去了趟这个古城，由于时间比较短也没有去很多地方。感谢叶同学让我人生第一次吃煎牛排：
 
-![nanjin1](https://cdn.zhoumq.cn/nanjin1.jpeg)
-![nanjin2](https://cdn.zhoumq.cn/nanjin2.jpeg)
-![nanjin3](https://cdn.zhoumq.cn/nanjin3.jpeg)
+![nanjin1](/images/nanjin1.jpeg)
+![nanjin2](/images/nanjin2.jpeg)
+![nanjin3](/images/nanjin3.jpeg)
 
 7. 健身，维持体重到120左右
 回来广州之后，平时有空就去跑个 3、4 公里，饮食也注重清淡，体重减了许多，基本上维持在 122 左右

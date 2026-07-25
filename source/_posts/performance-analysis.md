@@ -352,7 +352,7 @@ function f() {}
 
 对应的火焰图如下：
 
-![7](https://raw.githubusercontent.com/rickyes/rickyes.github.io-2/master/images/7.jpg)
+![7](/images/7.jpg)
 
 以下命令启动应用：
 
@@ -369,17 +369,17 @@ $ wrk -t8 -c200 -d30s http://127.0.0.1:3000/test
 
 评估报告参考第一次压测结果。然后`ctrl + c`退出当前进程, 等待分析并生成火焰图：
 
-![1](https://raw.githubusercontent.com/rickyes/rickyes.github.io-2/master/images/1.jpg)
+![1](/images/1.jpg)
 
 横轴表示抽样数，宽度越大表示该函数的抽取次数越多，也就是占用CPU总时间越多。每一层表示一个调用栈一个函数，调用栈越深火焰越高，每一层的父类在下一层。一个出现平顶的火焰图表示有可能瓶颈就是出现在最顶层的函数上。
 
 `*`表示经过`v8`优化的代码，`~`表示未经过优化的代码，如果优化状态对我们不重要，可以点击`merge`按钮合并：
 
-![2](https://raw.githubusercontent.com/rickyes/rickyes.github.io-2/master/images/2.jpg)
+![2](/images/2.jpg)
 
 可以看到`server.on`占用了大部分的CPU时间。现在开启的分析结果是app、依赖包、和node核心，现在点击`v8`和`cpp`开启内置的模块调用栈：
 
-![3](https://raw.githubusercontent.com/rickyes/rickyes.github.io-2/master/images/3.jpg)
+![3](/images/3.jpg)
 
 `Node.js`的JSON解析器是直接用了v8的json引擎，所以看不到js的函数调用，只是看到了c++的调用函数`SerializeString`，现在试着把`JSON.stringify`去掉：
 
@@ -399,7 +399,7 @@ server.on('after', (req, res) => {
 
 再次压测，得到的火焰图如下：
 
-![4](https://raw.githubusercontent.com/rickyes/rickyes.github.io-2/master/images/4.1.jpg)
+![4](/images/4.1.jpg)
 
 可以看到平顶的情况已经好很多了，但是更突出了一个问题，`emit`函数成为了热点代码, 原因可能就是`events`的句柄太多，去掉`require('events').defaultMaxListeners = Infinity`这一行代码，检查代码并修复一处bug:
 
@@ -424,7 +424,7 @@ Transfer/sec:     86.04MB
 
 得到的火焰图：
 
-![5](https://raw.githubusercontent.com/rickyes/rickyes.github.io-2/master/images/5.1.jpg)
+![5](/images/5.1.jpg)
 
 该火焰图表示已经改善了巨大的平顶的函数了，现在的热点代码是在node核心的定时器上了，现在得到的火焰图已经修复了最大的问题区域了，当然还是可以继续优化下去，直到火焰图的平顶函数越来越少。
 

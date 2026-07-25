@@ -20,8 +20,8 @@ override: true
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
   visibilitychange: true
-  narmal: https://cdn.zhoumq.cn/favicon.ico
-  hidden: https://cdn.zhoumq.cn/failure.ico
+  narmal: /images/favicon.ico
+  hidden: /images/failure.ico
   show_text: (/≧▽≦/)咦！又好了！
   hide_text: (●—●)喔哟，崩溃啦！
   apple_touch_icon: /images/apple-touch-icon-next.png
@@ -116,7 +116,7 @@ links:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: https://cdn.zhoumq.cn/IMG_2235.JPG
+avatar: /images/IMG_2235.JPG
 
 # Table Of Contents in the Sidebar
 toc:
@@ -255,7 +255,7 @@ highlight_theme: normal
 # Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS
 # ---------------------------------------------------------------
 font:
-  enable: true
+  enable: false
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
   host: //fonts.googleapis.com
@@ -425,7 +425,8 @@ needmoreshare2:
 #google_site_verification:
 
 # Google Analytics
-google_analytics: UA-48084758-7
+# Google Analytics UA 已停服(2024.7),关闭
+# google_analytics: UA-48084758-7
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
@@ -489,17 +490,17 @@ rating:
 # ---------------------------------------------------------------
 
 # Show number of visitors to each article.
-# You can visit https://leancloud.cn get AppID and AppKey.
+# LeanCloud 已停用,改用底部的不蒜子 busuanzi
 leancloud_visitors:
-  enable: true
-  app_id: H2iwgibW8k7unBTImB7qfYBT-gzGzoHsz
-  app_key: FiSYLRlQTRxg8HuHlcqJabDt
+  enable: false
+  app_id: # your leancloud application appid
+  app_key: # your leancloud application appkey
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: false
+  enable: true
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
@@ -677,13 +678,13 @@ vendors:
   # Internal path prefix. Please do not edit it.
   _internal: lib
 
-  # Internal version: 2.1.3
-  jquery: https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js
+  # Internal version: 2.1.3 (已内嵌到 source/lib/)
+  # jquery: https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js
 
-  # Internal version: 2.1.5
+  # Internal version: 2.1.5 (已内嵌到 source/lib/)
   # See: http://fancyapps.com/fancybox/
-  fancybox: https://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js
-  fancybox_css: https://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css
+  # fancybox: https://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js
+  # fancybox_css: https://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css
 
   # Internal version: 1.0.6
   # See: https://github.com/ftlabs/fastclick
@@ -707,7 +708,8 @@ vendors:
 
   # Internal version: 4.7.0
   # See: http://fontawesome.io/
-  fontawesome: https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css
+  # fontawesome 已内嵌到 source/lib/font-awesome/,注释 CDN 走本地
+  # fontawesome: https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css
 
   social_share_css: https://cdn.bootcss.com/social-share.js/1.0.9/css/share.min.css
 
@@ -761,10 +763,10 @@ css: css
 js: js
 images: images
 
-header_bg: https://cdn.zhoumq.cn/header-bg-min.jpeg
+header_bg: /images/header-bg-min.jpeg
 
 card:
-  avatar: https://cdn.zhoumq.cn/card.jpg
+  avatar: /images/card.jpg
   name: <span style="opacity:.2;">!</span>Ricky 泽阳
   description: 隱約雷鳴 陰霾天空 但盼風雨來 能留妳在此
 

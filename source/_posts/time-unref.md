@@ -51,7 +51,7 @@ console.log('b');
 
 使用上面的规则对 `示例` 里的例子进行解析：
 
-![unref](https://cdn.zhoumq.cn/unref.jpg)
+![unref](/images/unref.jpg)
 
 当执行到 `setTimeout` 时，将回调函数推进事件循环，`引用计数 +1`，执行 `timeout.unref()` 时 `引用计数 -1`， `引用计数` 为 `0`，后面的代码也没有新的事件加入循环，执行文件末尾后进程退出。
 
@@ -397,4 +397,4 @@ console.log('b');
 
 最后以一层流程图结束本文：
 
-![timer-unref](https://cdn.zhoumq.cn/timer-unref.jpg)
+![timer-unref](/images/timer-unref.jpg)
